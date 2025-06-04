@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to bottom right, #ADD8E6, #90EE90);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#exibir-dados-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+#exibir-dados-container h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    color: white;
+    font-weight: bold;
+}
+
+.form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 1;
+    color: #000000;
+    border: 1px solid #ced4da;
+    cursor: default;
+}
+
+.btn-secondary {
+    background-color: grey;
+    color: white;
+    width: 100%;
+}
+
+.d-grid {
+    margin-top: 20px;
+}
